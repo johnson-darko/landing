@@ -1,0 +1,66 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+   background-image: ur("../../images/background.png");
+   background-color: rgba(0, 30, 0, 1.0);
+
+}
+
+.banner h1 {
+		background-size: cover;
+
+
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  
+}
+h2{
+	text-align: center;
+}
+
+.btn-flat {
+	color: white;
+	border-radius: 4px;
+	padding: 10px 15px;
+	color: white;
+  padding: 12px 24px;
+  border-radius: 40px;
+  background: #1CDD87;
+  transition: background 0.3s ease;
+
+}
+
+.card-white{
+/*	border: 1px solid red;
+*/	width:150px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 4px;
+	box-shadow: 0 0 4px grey;
+}
+
+.card-white img{
+	margin: 2px 2px;
+	/*border: 1px solid blue;*/
+	width: 90%;
+}
+
+
+.card-container{
+	/*border: 1px solid green;*/
+	display: flex;
+	justify-content: space-evenly;
+	box-shadow: 0 0 1px grey;
+	height: 120%;
+
+}
